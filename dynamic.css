@@ -1,0 +1,25 @@
+html {
+  font-family: Merienda, sans-serif;
+}
+
+body {
+  background-color: var(--color--body-background);
+  color: var(--color--body-foreground);
+
+  display: grid;
+  place-items: center;
+
+  min-height: 100vh;
+}
+
+h1 {
+  font-size: 4.8rem;
+}
+
+.heart {
+  color: transparent;
+}
+
+.heart:hover {
+  color: var(--color--heart-foreground--hover);
+}
